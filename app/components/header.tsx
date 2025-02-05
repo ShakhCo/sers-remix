@@ -52,7 +52,7 @@ export default function Header() {
     ];
 
     return (
-        <Navbar className="max-w-[106rem] 2xl:rounded-xl mx-auto bg-customDarkBlue border-b dark:bg-gray-950 py-0 md:py-4 dark:border-b-gray-800" shouldHideOnScroll isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+        <Navbar position="static" className="max-w-[96rem] 2xl:rounded-xl mx-auto bg-customDarkBlue dark:bg-gray-950 py-0 md:py-4 dark:border-b-gray-800" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
 
             <NavbarContent className="lg:hidden" justify="start">
                 <NavbarMenuToggle className="text-white" aria-label={isMenuOpen ? "Close menu" : "Open menu"} />

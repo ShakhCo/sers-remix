@@ -300,7 +300,7 @@ const defaultItemAnimationVariants: Record<
 
 export function TextAnimate({
     children,
-    delay = 0,
+    delay = 0.9,
     duration = 0.3,
     variants,
     className,

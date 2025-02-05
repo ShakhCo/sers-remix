@@ -6,7 +6,7 @@ import { AiOutlineDollar } from "react-icons/ai";
 import { MdOutlineAccessTime } from "react-icons/md";
 import { GrTransaction } from "react-icons/gr";
 
-export default function Home() {
+export function Home() {
 
     const features = [
         {
@@ -32,12 +32,11 @@ export default function Home() {
     ];
 
     return <section id="home" className="">
-        <div className="py-24 max-w-[110rem] mx-auto px-8">
-
+        <div className="py-24">
             <div className="flex items-center 2xl:justify-center">
 
                 <div className="">
-                    <h2 className="xl:max-w-6xl text-3xl relative z-20 md:text-4xl lg:text-5xl xl:text-7xl font-bold text-customDarkBlue dark:text-white font-sans tracking-wide mb-4">
+                    <h2 className="xl:max-w-6xl text-3xl relative z-20 md:text-4xl lg:text-6xl xl:text-7xl font-bold text-customDarkBlue dark:text-white font-sans tracking-wide mb-4">
                         <p className="leading-relaxed lg:leading-tight">
                             The easiest way to buy and sell online businesses<br></br>
                         </p>
