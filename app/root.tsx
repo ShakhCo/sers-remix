@@ -22,6 +22,8 @@ export const links: LinksFunction = () => [
   },
 ];
 
+import { Providers } from "./providers";
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -31,8 +33,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
-        {children}
+      <body className="bg-orange-50">
+        <Providers>
+          {children}
+        </Providers>
         <ScrollRestoration />
         <Scripts />
       </body>
