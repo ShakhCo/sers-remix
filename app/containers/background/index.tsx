@@ -2,7 +2,7 @@ import { Pricing } from "../pricing"
 
 export function Background() {
     return (
-        <div className="w-full dark:bg-black bg-customDarkBlue dark:bg-grid-white/[0.2] bg-grid-gray-900 relative flex flex-col items-center justify-center py-24">
+        <div className="w-full dark:bg-black bg-customDarkBlue dark:bg-grid-white/[0.1] bg-grid-gray-800 relative flex flex-col items-center justify-center py-24">
 
             <Pricing />
 
